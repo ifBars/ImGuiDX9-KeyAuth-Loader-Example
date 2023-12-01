@@ -1,0 +1,7 @@
+﻿  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1648 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Test Loader.vcxproj -> C:\Users\ghost\Desktop\C++\Test Loader\x64\Release\Test Loader.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

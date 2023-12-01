@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="imGui\backends\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imGui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="imGui\imgui.cpp" />
+    <ClCompile Include="imGui\imgui_demo.cpp" />
+    <ClCompile Include="imGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="imGui\imgui_tables.cpp" />
+    <ClCompile Include="imGui\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainApp\MainApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="DirectXTex.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="GuiHelper.h" />
+    <ClInclude Include="imGui\backends\imgui_impl_dx9.h" />
+    <ClInclude Include="imGui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="imGui\imconfig.h" />
+    <ClInclude Include="imGui\imgui.h" />
+    <ClInclude Include="imGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imgui_stdlib.h" />
+    <ClInclude Include="imGui\imstb_rectpack.h" />
+    <ClInclude Include="imGui\imstb_textedit.h" />
+    <ClInclude Include="imGui\imstb_truetype.h" />
+    <ClInclude Include="MainApp\MainApp.h" />
+    <ClInclude Include="skStr.h" />
+    <ClInclude Include="Themes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXTex.inl" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2746 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1049,
+                  "startColumn": 24,
+                  "endLine": 1049,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad2",
+                  "decoratedName": "?stbi__malloc_mad2@@YAPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1049,
+                  "startColumn": 24,
+                  "endLine": 1049,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad2",
+                  "decoratedName": "?stbi__malloc_mad2@@YAPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1056,
+                  "startColumn": 24,
+                  "endLine": 1056,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad3",
+                  "decoratedName": "?stbi__malloc_mad3@@YAPEAXHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1056,
+                  "startColumn": 24,
+                  "endLine": 1056,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad3",
+                  "decoratedName": "?stbi__malloc_mad3@@YAPEAXHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1056,
+                  "startColumn": 24,
+                  "endLine": 1056,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad3",
+                  "decoratedName": "?stbi__malloc_mad3@@YAPEAXHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1063,
+                  "startColumn": 24,
+                  "endLine": 1063,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1063,
+                  "startColumn": 24,
+                  "endLine": 1063,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1063,
+                  "startColumn": 24,
+                  "endLine": 1063,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1063,
+                  "startColumn": 24,
+                  "endLine": 1063,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__malloc_mad4",
+                  "decoratedName": "?stbi__malloc_mad4@@YAPEAXHHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1210,
+                  "startColumn": 45,
+                  "endLine": 1210,
+                  "endColumn": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_8_to_16",
+                  "decoratedName": "?stbi__convert_8_to_16@@YAPEAGPEAEHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1229,
+                  "startColumn": 32,
+                  "endLine": 1229,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__vertical_flip",
+                  "decoratedName": "?stbi__vertical_flip@@YAXPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1229,
+                  "startColumn": 32,
+                  "endLine": 1229,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__vertical_flip",
+                  "decoratedName": "?stbi__vertical_flip@@YAXPEAXHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1768,
+                  "startColumn": 36,
+                  "endLine": 1768,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1768,
+                  "startColumn": 36,
+                  "endLine": 1768,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1769,
+                  "startColumn": 36,
+                  "endLine": 1769,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1769,
+                  "startColumn": 36,
+                  "endLine": 1769,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format",
+                  "decoratedName": "?stbi__convert_format@@YAPEAEPEAEHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1818,
+                  "startColumn": 41,
+                  "endLine": 1818,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1818,
+                  "startColumn": 41,
+                  "endLine": 1818,
+                  "endColumn": 56
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1818,
+                  "startColumn": 41,
+                  "endLine": 1818,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1825,
+                  "startColumn": 35,
+                  "endLine": 1825,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1825,
+                  "startColumn": 35,
+                  "endLine": 1825,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1826,
+                  "startColumn": 35,
+                  "endLine": 1826,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 1826,
+                  "startColumn": 35,
+                  "endLine": 1826,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__convert_format16",
+                  "decoratedName": "?stbi__convert_format16@@YAPEAGPEAGHHII@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3020,
+                  "startColumn": 53,
+                  "endLine": 3020,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3051,
+                  "startColumn": 62,
+                  "endLine": 3051,
+                  "endColumn": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2965,
+                  "startColumn": 57,
+                  "endLine": 2965,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2965,
+                  "startColumn": 57,
+                  "endLine": 2965,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2965,
+                  "startColumn": 79,
+                  "endLine": 2965,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 2993,
+                  "startColumn": 66,
+                  "endLine": 2993,
+                  "endColumn": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__parse_entropy_coded_data",
+                  "decoratedName": "?stbi__parse_entropy_coded_data@@YAHPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3088,
+                  "startColumn": 53,
+                  "endLine": 3088,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3090,
+                  "startColumn": 57,
+                  "endLine": 3090,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3090,
+                  "startColumn": 57,
+                  "endLine": 3090,
+                  "endColumn": 75
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3090,
+                  "startColumn": 79,
+                  "endLine": 3090,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__jpeg_finish",
+                  "decoratedName": "?stbi__jpeg_finish@@YAXPEAUstbi__jpeg@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3585,
+                  "startColumn": 43,
+                  "endLine": 3585,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__resample_row_hv_2_simd",
+                  "decoratedName": "?stbi__resample_row_hv_2_simd@@YAPEAEPEAE00HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3902,
+                  "startColumn": 60,
+                  "endLine": 3902,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "load_jpeg_image",
+                  "decoratedName": "?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3925,
+                  "startColumn": 34,
+                  "endLine": 3925,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "load_jpeg_image",
+                  "decoratedName": "?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 3925,
+                  "startColumn": 34,
+                  "endLine": 3925,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "load_jpeg_image",
+                  "decoratedName": "?load_jpeg_image@@YAPEAEPEAUstbi__jpeg@@PEAH11H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4677,
+                  "startColumn": 31,
+                  "endLine": 4677,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4686,
+                  "startColumn": 17,
+                  "endLine": 4686,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4766,
+                  "startColumn": 28,
+                  "endLine": 4766,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4779,
+                  "startColumn": 34,
+                  "endLine": 4779,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4780,
+                  "startColumn": 34,
+                  "endLine": 4780,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4780,
+                  "startColumn": 45,
+                  "endLine": 4780,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4829,
+                  "startColumn": 28,
+                  "endLine": 4829,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image_raw",
+                  "decoratedName": "?stbi__create_png_image_raw@@YAHPEAUstbi__png@@PEAEIHIIHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4893,
+                  "startColumn": 31,
+                  "endLine": 4893,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4893,
+                  "startColumn": 31,
+                  "endLine": 4893,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4893,
+                  "startColumn": 61,
+                  "endLine": 4893,
+                  "endColumn": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4894,
+                  "startColumn": 33,
+                  "endLine": 4894,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4894,
+                  "startColumn": 33,
+                  "endLine": 4894,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 4894,
+                  "startColumn": 33,
+                  "endLine": 4894,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__create_png_image",
+                  "decoratedName": "?stbi__create_png_image@@YAHPEAUstbi__png@@PEAEIHHHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5714,
+                  "startColumn": 35,
+                  "endLine": 5714,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5714,
+                  "startColumn": 35,
+                  "endLine": 5714,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5715,
+                  "startColumn": 31,
+                  "endLine": 5715,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5715,
+                  "startColumn": 31,
+                  "endLine": 5715,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5715,
+                  "startColumn": 31,
+                  "endLine": 5715,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__bmp_load",
+                  "decoratedName": "?stbi__bmp_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5746,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__tga_get_comp",
+                  "decoratedName": "?stbi__tga_get_comp@@YAHHHPEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5935,
+                  "startColumn": 40,
+                  "endLine": 5935,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__tga_load",
+                  "decoratedName": "?stbi__tga_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 5935,
+                  "startColumn": 40,
+                  "endLine": 5935,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__tga_load",
+                  "decoratedName": "?stbi__tga_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6203,
+                  "startColumn": 38,
+                  "endLine": 6203,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6203,
+                  "startColumn": 38,
+                  "endLine": 6203,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6285,
+                  "startColumn": 58,
+                  "endLine": 6285,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6297,
+                  "startColumn": 42,
+                  "endLine": 6297,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__psd_load",
+                  "decoratedName": "?stbi__psd_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6422,
+                  "startColumn": 33,
+                  "endLine": 6422,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load_core",
+                  "decoratedName": "?stbi__pic_load_core@@YAPEAEPEAUstbi__context@@HHPEAHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6422,
+                  "startColumn": 33,
+                  "endLine": 6422,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load_core",
+                  "decoratedName": "?stbi__pic_load_core@@YAPEAEPEAUstbi__context@@HHPEAHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6526,
+                  "startColumn": 25,
+                  "endLine": 6526,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load",
+                  "decoratedName": "?stbi__pic_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6526,
+                  "startColumn": 25,
+                  "endLine": 6526,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__pic_load",
+                  "decoratedName": "?stbi__pic_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6792,
+                  "startColumn": 41,
+                  "endLine": 6792,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6793,
+                  "startColumn": 48,
+                  "endLine": 6793,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6801,
+                  "startColumn": 28,
+                  "endLine": 6801,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6802,
+                  "startColumn": 35,
+                  "endLine": 6802,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6835,
+                  "startColumn": 38,
+                  "endLine": 6835,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6835,
+                  "startColumn": 38,
+                  "endLine": 6835,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6839,
+                  "startColumn": 30,
+                  "endLine": 6839,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load_next",
+                  "decoratedName": "?stbi__gif_load_next@@YAPEAEPEAUstbi__context@@PEAUstbi__gif@@PEAHHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Function uses '35036' bytes of stack.  Consider moving some data to heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6962,
+                  "startColumn": 14,
+                  "endLine": 6962,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 6993,
+                  "startColumn": 39,
+                  "endLine": 6993,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7009,
+                  "startColumn": 46,
+                  "endLine": 7009,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7020,
+                  "startColumn": 29,
+                  "endLine": 7020,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7020,
+                  "startColumn": 29,
+                  "endLine": 7020,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7022,
+                  "startColumn": 33,
+                  "endLine": 7022,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__load_gif_main",
+                  "decoratedName": "?stbi__load_gif_main@@YAPEAXPEAUstbi__context@@PEAPEAHPEAH222H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Function uses '34980' bytes of stack.  Consider moving some data to heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7047,
+                  "startColumn": 14,
+                  "endLine": 7047,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__gif_load",
+                  "decoratedName": "?stbi__gif_load@@YAPEAXPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7148,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_convert",
+                  "decoratedName": "?stbi__hdr_convert@@YAXPEAMPEAEH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "Unannotated fallthrough between switch labels (es.78)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7151,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_convert",
+                  "decoratedName": "?stbi__hdr_convert@@YAXPEAMPEAEH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7222,
+                  "startColumn": 42,
+                  "endLine": 7222,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7222,
+                  "startColumn": 42,
+                  "endLine": 7222,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7222,
+                  "startColumn": 65,
+                  "endLine": 7222,
+                  "endColumn": 69
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7279,
+                  "startColumn": 41,
+                  "endLine": 7279,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7279,
+                  "startColumn": 41,
+                  "endLine": 7279,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7279,
+                  "startColumn": 41,
+                  "endLine": 7279,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+                },
+                "region": {
+                  "startLine": 7279,
+                  "startColumn": 75,
+                  "endLine": 7279,
+                  "endColumn": 77
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbi__hdr_load",
+                  "decoratedName": "?stbi__hdr_load@@YAPEAMPEAUstbi__context@@PEAH11HPEAUstbi__result_info@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'wString'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 2,
+                  "endLine": 86,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Gui::CreateHWindow",
+                  "decoratedName": "?CreateHWindow@Gui@@YAXPEBDHH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'wString' is an array of 1 elements (2 bytes)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'wString' is an Input to 'MultiByteToWideChar' (declared at e:\\windows kits\\10\\include\\10.0.22621.0\\um\\stringapiset.h:120)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'wString[4095]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/stb_image.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "38e08c1c5ab8869ae8d605ddaefa85ad3fea24a2964fd63a099c0c0f79c70bcc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/Gui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "263e0eff89f807e4732db9abb79124e396d4e0d12cfbb9be2063d2a028520f4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/gui.h"
+          },
+          "hashes": {
+            "sha-256": "0d0b3c93ad27a2dbca39e3c0b836f4438280cdc3349de7a5695ac3160ba3135c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/downloads/vcpkg/installed/x64-windows/include/directxtex.h"
+          },
+          "hashes": {
+            "sha-256": "df2cea5a4d51e66bee748f3acc017c52bd38535f5b8ad45bf098fb82f624f316"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/downloads/vcpkg/installed/x64-windows/include/directxtex.inl"
+          },
+          "hashes": {
+            "sha-256": "8c486b800a569f6d5b9f21fd6c8837e8965948b924a26b2541ff058a3ae05821"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "f2752aa0612b5dd85584538696c2e275e0a0a5942c942aadd8ec2a1f36e61d82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "ee19126d062647ced5ad53a065bfa3cab04b1f14b65a6f72da3c9139f2b425ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/backends/imgui_impl_dx9.h"
+          },
+          "hashes": {
+            "sha-256": "638eb4bbe87c10f2f458a9beb72679994ea418de31035fba58e0122710d8b5ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/backends/imgui_impl_win32.h"
+          },
+          "hashes": {
+            "sha-256": "799f50c0d0b906e92d9b14d040f4d25ac8ece0f19c722a02fecb1d24a2bfdcb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/themes.h"
+          },
+          "hashes": {
+            "sha-256": "e01de6b9ab98fd11ee569d7959d8b6d4514bf737cd3fc243222426ad5ae42728"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/font.h"
+          },
+          "hashes": {
+            "sha-256": "42ff158d10f7e2492e852951d7a5a07ce0569971480d8fd67fff4cb8df5a59c5"
+          }
+        }
+      ]
+    }
+  ]
+}

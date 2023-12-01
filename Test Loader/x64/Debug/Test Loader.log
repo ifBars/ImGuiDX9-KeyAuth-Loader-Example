@@ -1,0 +1,19 @@
+﻿  App.cpp
+  Gui.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_stdlib.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  main.cpp
+  MainApp.cpp
+  Generating Code...
+library_x64.lib(auth.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in App.obj
+library_x64.lib(auth.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in App.obj
+library_x64.lib(utils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in App.obj
+library_x64.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in App.obj
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\ghost\Desktop\C++\Test Loader\x64\Debug\Test Loader.exe : fatal error LNK1319: 4 mismatches detected

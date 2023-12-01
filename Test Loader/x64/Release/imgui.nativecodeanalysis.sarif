@@ -1,0 +1,369 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'window->RootWindowForNav' contains the same NULL value as 'parent_window' did. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 5970,
+                  "startColumn": 12,
+                  "endLine": 5970,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::UpdateWindowParentAndRootLinks",
+                  "decoratedName": "?UpdateWindowParentAndRootLinks@ImGui@@YAXPEAUImGuiWindow@@H0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5962,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5963,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5964,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "'parent_window' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5966,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5968,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5970,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5973,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5970,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 5970,
+                            "startColumn": 44
+                          }
+                        },
+                        "message": {
+                          "text": "'parent_window' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C33010",
+          "message": {
+            "text": "Unchecked lower bound for enum key used as index.."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                },
+                "region": {
+                  "startLine": 13581,
+                  "startColumn": 95,
+                  "endLine": 13581,
+                  "endColumn": 119
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImGui::ShowMetricsWindow::funcs::IsLegacyNativeDupe",
+                  "decoratedName": "?IsLegacyNativeDupe@funcs@?IA@??ShowMetricsWindow@ImGui@@YAXPEA_N@Z@SA_NW4ImGuiKey@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13581,
+                            "startColumn": 40
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13581,
+                            "startColumn": 86
+                          }
+                        },
+                        "message": {
+                          "text": "Branching based on condition 'key < 512'. 'true' branch is taken\nEnum value 'key' is checked for upper bound."
+                        }
+                      },
+                      "kinds": [
+                        "Combination"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13581,
+                            "startColumn": 95
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+                          },
+                          "region": {
+                            "startLine": 13581,
+                            "startColumn": 115
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/imGui/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "61682884d29be851c34d477c94ccf47c6f67721d7451b67f98c36c4139d40ec6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "f2752aa0612b5dd85584538696c2e275e0a0a5942c942aadd8ec2a1f36e61d82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "ee19126d062647ced5ad53a065bfa3cab04b1f14b65a6f72da3c9139f2b425ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "ae8e955d54e531bd0793907b87b9479fe693162075f6ccb8d8d14a940d213a5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imstb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "789e1759a06827df0894674c73cb3e40af8b11e6e1c210104155682b68d266f6"
+          }
+        }
+      ]
+    }
+  ]
+}

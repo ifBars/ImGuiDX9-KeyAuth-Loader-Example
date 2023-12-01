@@ -1,0 +1,166 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'KeyAuth::api::data_class::success' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/auth.hpp"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 3,
+                  "endLine": 71,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "KeyAuth::api::data_class::{ctor}",
+                  "decoratedName": "??0data_class@api@KeyAuth@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "KeyAuth::api::data_class::success"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/ghost/Desktop/C++/Test Loader/Test Loader/auth.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "460e42e880d3c6e1872bee93fd97ba93de7113f762c400b8777f0ba2825785bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/app.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "835f9bd75dd6d595f172142e6bb6500ecdbaa424b99a56f23d9cb2537e18075a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/app.h"
+          },
+          "hashes": {
+            "sha-256": "f7970e184a89b08db5946f34e5946d2982335c3d2cdf4fc0a1d68ce621ae9de2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/gui.h"
+          },
+          "hashes": {
+            "sha-256": "0d0b3c93ad27a2dbca39e3c0b836f4438280cdc3349de7a5695ac3160ba3135c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/downloads/vcpkg/installed/x64-windows/include/directxtex.h"
+          },
+          "hashes": {
+            "sha-256": "df2cea5a4d51e66bee748f3acc017c52bd38535f5b8ad45bf098fb82f624f316"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/downloads/vcpkg/installed/x64-windows/include/directxtex.inl"
+          },
+          "hashes": {
+            "sha-256": "8c486b800a569f6d5b9f21fd6c8837e8965948b924a26b2541ff058a3ae05821"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "f2752aa0612b5dd85584538696c2e275e0a0a5942c942aadd8ec2a1f36e61d82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "ee19126d062647ced5ad53a065bfa3cab04b1f14b65a6f72da3c9139f2b425ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/backends/imgui_impl_dx9.h"
+          },
+          "hashes": {
+            "sha-256": "638eb4bbe87c10f2f458a9beb72679994ea418de31035fba58e0122710d8b5ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/imgui/backends/imgui_impl_win32.h"
+          },
+          "hashes": {
+            "sha-256": "799f50c0d0b906e92d9b14d040f4d25ac8ece0f19c722a02fecb1d24a2bfdcb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/mainapp/mainapp.h"
+          },
+          "hashes": {
+            "sha-256": "8e594c90c252cfe6e7149fc8bef4d7b0f5a047e3a77b398b6ab766f9d99950ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/themes.h"
+          },
+          "hashes": {
+            "sha-256": "e01de6b9ab98fd11ee569d7959d8b6d4514bf737cd3fc243222426ad5ae42728"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ghost/desktop/c++/test loader/test loader/skstr.h"
+          },
+          "hashes": {
+            "sha-256": "ec8fde3636508679b5b1b7e8aa64462e9f5d70a3954c042e5f566ab35e8f9eab"
+          }
+        }
+      ]
+    }
+  ]
+}
