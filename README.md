@@ -3,4 +3,4 @@
 
 **Video Showcase**
 
-![Video Showcase](https://www.youtube.com/watch?v=EM8e0UX62Uc)
+[Video Showcase](https://www.youtube.com/watch?v=EM8e0UX62Uc)
