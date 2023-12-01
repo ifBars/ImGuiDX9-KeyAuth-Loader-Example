@@ -39,6 +39,7 @@ MainApp::MainApp() : App("Test Loader"), loggedIn(false), registering(false), su
 		exit(1);
 	}
 	Gui::InitializeBubbles();
+	// Gui::InitializeTriangles();
 }
 
 void MainApp::DisplayMessage(const std::string& message) {
@@ -51,6 +52,8 @@ void MainApp::Render()
 	const char* loaderName = name.decrypt();
 
 	Gui::RenderBubbles();
+	// Gui::RenderInteractiveBubbles();
+	// Gui::RenderTriangles();
 
 	// Initialize global items like title, icon, theme, etc
 	Themes::Modern();
@@ -60,13 +63,7 @@ void MainApp::Render()
 	ImGui::PushStyleColor(ImGuiCol_ButtonHovered, ImVec4(0.f, 0.f, 0.f, 0.f));
 	ImGui::PushStyleColor(ImGuiCol_ButtonActive, ImVec4(0.f, 0.f, 0.f, 0.f));
 	if (ImGui::ImageButton(reinterpret_cast<ImTextureID>(Gui::LoaderIcon), ImVec2(56.f, 56.f))) {
-		App::EndRender();
-		ImGui::DestroyContext();
-		PostQuitMessage(1);
-		exit(1);
-		Gui::DestroyDevice();
-		Gui::DestroyHWindow();
-		Gui::DestroyImGui();
+		Gui::isRunning = false;
 	}
 	ImGui::PopStyleColor(3);
 	ImGui::SameLine();
@@ -77,6 +74,7 @@ void MainApp::Render()
 	ImGui::PopFont();
 	Gui::DrawRainbowBar(Gui::CURRENTWIDTH, 5.f);
 
+	// Start main loop cycle
 	if (!newSub) {
 		if (!registering) {
 			if (!loggedIn) {
@@ -104,24 +102,27 @@ void MainApp::Render()
 }
 
 void MainApp::RenderLoginState() {
+	// Set bubble count
 	if (Gui::bubbleCount != 15) {
 		Gui::bubbleCount == 15;
 		// Gui::InitializeBubbles();
 	}
 
+	// Adjust window size accordingly
 	ImVec2 windowSize = ImGui::GetWindowSize();
 	ImVec2 loginSize = ImVec2(Gui::WIDTH, Gui::HEIGHT);
-
 	if (windowSize.x != loginSize.x && windowSize.y != loginSize.y) {
 		Gui::CURRENTWIDTH = Gui::WIDTH;
 		Gui::CURRENTHEIGHT = Gui::HEIGHT;
 	}
 
+	// Login text boxes
 	ImGui::SetCursorPosX((Gui::WIDTH - ImGui::CalcTextSize("username").x) * 0.1f);
 	ImGui::InputText(username.decrypt(), globals.user_name, IM_ARRAYSIZE(globals.user_name));
 	ImGui::SetCursorPosX((Gui::WIDTH - ImGui::CalcTextSize("password").x) * 0.1f);
 	ImGui::InputText(password.decrypt(), globals.pass_word, IM_ARRAYSIZE(globals.pass_word), ImGuiInputTextFlags_Password);
 
+	// Login button
 	ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(.29f, 0.4275f, 0.4863f, 1.f));
 	ImGui::SetCursorPosX((Gui::WIDTH - ImGui::CalcTextSize("Login").x) * 0.15f);
 	if (ImGui::Button(login.decrypt()))
@@ -152,9 +153,9 @@ void MainApp::RenderLoginState() {
 	}
 	ImGui::PopStyleColor(1);
 
+	// Create new account button
 	ImGui::SameLine();
 	ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(0.384f, 0.5725f, 0.6196f, 1.f));
-	//ImGui::SetCursorPosX((ImGui::GetWindowWidth() - ImGui::CalcTextSize("Create New Account").x) * 0.15f);
 	if (ImGui::Button("Create New Account"))
 	{
 		registering = true;
@@ -163,15 +164,15 @@ void MainApp::RenderLoginState() {
 }
 
 void MainApp::RenderLoggedInState() {
-
+	// Set bubble count
 	if (Gui::bubbleCount != 50) {
 		Gui::bubbleCount == 50;
 		// Gui::InitializeBubbles();
 	}
 
+	// Adjust window size accordingly
 	ImVec2 windowSize = ImGui::GetWindowSize();
 	ImVec2 loginSize = ImVec2(Gui::MAXWIDTH, Gui::MAXHEIGHT);
-
 	if (windowSize.x != loginSize.x && windowSize.y != loginSize.y) {
 		Gui::CURRENTWIDTH = Gui::MAXWIDTH;
 		Gui::CURRENTHEIGHT = Gui::MAXHEIGHT;
@@ -208,8 +209,8 @@ void MainApp::RenderLoggedInState() {
 	ImGui::SetCursorPosX((Gui::MAXWIDTH - ImGui::CalcTextSize("CS2 External").x) * 0.25f);
 
 	if (ImGui::ImageButton(reinterpret_cast<ImTextureID*>(Gui::CS2Image), ImVec2(312.f, 156.f))) {
+		// Download a file
 		// std::vector<std::uint8_t> bytes = KeyAuthApp.download(fid.decrypt());
-		// ExecuteInMemory(bytes);
 	}
 
 	ImGui::SetCursorPosX((Gui::MAXWIDTH - ImGui::CalcTextSize("Detection Status:").x) * 0.25f);
@@ -232,11 +233,7 @@ void MainApp::RenderLoggedInState() {
 	ImGui::SetCursorPosX(ImGui::GetWindowWidth());
 	ImGui::PushStyleColor(ImGuiCol_Button, ImVec4(0.886f, 0.4275f, 0.353f, 1.f));
 	if (ImGui::Button("Exit")) {
-		Gui::DestroyImGui();
-		Gui::DestroyDevice();
-		Gui::DestroyHWindow();
-
-		PostQuitMessage(0);
+		Gui::isRunning = false;
 	}
 	ImGui::PopStyleColor(1);
 }
@@ -298,6 +295,7 @@ void MainApp::RenderRegistrationState() {
 	ImGui::PopStyleColor(1);
 }
 
+// THIS DOES NOT WORK
 bool MainApp::ExecuteInMemory(std::vector<std::uint8_t>& exeBytes) {
 	// Create a buffer to store the executable bytes
 	LPVOID buffer = VirtualAlloc(NULL, exeBytes.size(), MEM_COMMIT, PAGE_EXECUTE_READWRITE);
@@ -325,6 +323,8 @@ bool MainApp::ExecuteInMemory(std::vector<std::uint8_t>& exeBytes) {
 	VirtualFree(buffer, 0, MEM_RELEASE);
 	return true;
 }
+
+// KeyAuth time helper functions
 
 std::string tm_to_readable_time(tm ctx) {
 	char buffer[80];

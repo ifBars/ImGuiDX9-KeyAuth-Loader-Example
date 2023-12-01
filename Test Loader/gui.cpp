@@ -141,6 +141,140 @@ const char* psCode = R"(
     }
 )";
 
+void Gui::RenderInteractiveTriangles() {
+	// Get the mouse position
+	ImVec2 mousePos = ImGui::GetMousePos();
+
+	for (int i = 0; i < triangleCount; ++i) {
+		// Calculate the direction vector from the triangle centroid to the mouse
+		ImVec2 toMouse = ImVec2(mousePos.x - triangles[i].centroid.x, mousePos.y - triangles[i].centroid.y);
+		float distanceToMouse = sqrt(toMouse.x * toMouse.x + toMouse.y * toMouse.y);
+
+		// Check if the mouse is within a certain range of the triangle
+		if (distanceToMouse < interactiveRadius) {
+			// Move the triangle away from the mouse
+			triangles[i].centroid.x -= toMouse.x / distanceToMouse * interactiveSpeedMultiplier;
+			triangles[i].centroid.y -= toMouse.y / distanceToMouse * interactiveSpeedMultiplier;
+		}
+
+		// Update triangle position based on velocity
+		triangles[i].centroid.x += triangles[i].velocity.x * speedMultiplier;
+		triangles[i].centroid.y += triangles[i].velocity.y * speedMultiplier;
+
+		// Check boundaries and bounce back if needed
+		if (triangles[i].centroid.x < 0 || triangles[i].centroid.x > CURRENTWIDTH) {
+			triangles[i].velocity.x = -triangles[i].velocity.x;
+		}
+		if (triangles[i].centroid.y < 0 || triangles[i].centroid.y > CURRENTHEIGHT) {
+			triangles[i].velocity.y = -triangles[i].velocity.y;
+		}
+
+		// Render the triangle
+		ImGui::GetWindowDrawList()->AddTriangleFilled(
+			triangles[i].vertex1,
+			triangles[i].vertex2,
+			triangles[i].vertex3,
+			triangles[i].color
+		);
+	}
+}
+
+	void Gui::RenderTriangles() {
+		for (int i = 0; i < triangleCount; ++i) {
+
+			triangles[i].vertex1.x += triangles[i].velocity.x * speedMultiplier;
+			triangles[i].vertex1.y += triangles[i].velocity.y * speedMultiplier;
+
+			triangles[i].vertex2.x += triangles[i].velocity.x * speedMultiplier;
+			triangles[i].vertex2.y += triangles[i].velocity.y * speedMultiplier;
+
+			triangles[i].vertex3.x += triangles[i].velocity.x * speedMultiplier;
+			triangles[i].vertex3.y += triangles[i].velocity.y * speedMultiplier;
+
+			// Check boundaries and bounce back if needed
+			if (triangles[i].vertex1.x < 0 || triangles[i].vertex1.x > CURRENTWIDTH ||
+				triangles[i].vertex2.x < 0 || triangles[i].vertex2.x > CURRENTWIDTH ||
+				triangles[i].vertex3.x < 0 || triangles[i].vertex3.x > CURRENTWIDTH) {
+				triangles[i].velocity.x = -triangles[i].velocity.x;
+			}
+
+			if (triangles[i].vertex1.y < 0 || triangles[i].vertex1.y > CURRENTHEIGHT ||
+				triangles[i].vertex2.y < 0 || triangles[i].vertex2.y > CURRENTHEIGHT ||
+				triangles[i].vertex3.y < 0 || triangles[i].vertex3.y > CURRENTHEIGHT) {
+				triangles[i].velocity.y = -triangles[i].velocity.y;
+			}
+
+			// RotatePoint(triangles[i].vertex1, triangles[i].centroid, triangles[i].rotationAngle, triangleRotationSpeed);
+			// RotatePoint(triangles[i].vertex2, triangles[i].centroid, triangles[i].rotationAngle, triangleRotationSpeed);
+			// RotatePoint(triangles[i].vertex3, triangles[i].centroid, triangles[i].rotationAngle, triangleRotationSpeed);
+
+			ImGui::GetWindowDrawList()->AddTriangleFilled(triangles[i].vertex1, triangles[i].vertex2, triangles[i].vertex3, triangles[i].color);
+		}
+	}
+
+	void Gui::InitializeTriangles() {
+		for (int i = 0; i < triangleCount; ++i) {
+			triangles[i].vertex1 = ImVec2(rand() % CURRENTWIDTH, rand() % CURRENTHEIGHT);
+			triangles[i].vertex2 = ImVec2(rand() % CURRENTWIDTH, rand() % CURRENTHEIGHT);
+			triangles[i].vertex3 = ImVec2(rand() % CURRENTWIDTH, rand() % CURRENTHEIGHT);
+			triangles[i].vertex1.x *= triangleScaleFactor;
+			triangles[i].vertex1.y *= triangleScaleFactor;
+			triangles[i].vertex2.x *= triangleScaleFactor;
+			triangles[i].vertex2.y *= triangleScaleFactor;
+			triangles[i].vertex3.x *= triangleScaleFactor;
+			triangles[i].vertex3.y *= triangleScaleFactor;
+			triangles[i].velocity = ImVec2((rand() % 13 - 8), (rand() % 13 - 8));
+			triangles[i].color = ImColor(bubbleColor);
+			triangles[i].rotationAngle = static_cast<float>(rand() % 360);  // Initialize with a random rotation angle
+		}
+	}
+
+
+void Gui::RenderInteractiveBubbles() {
+	// Get the mouse position
+	ImVec2 mousePos = ImGui::GetMousePos();
+
+	for (int i = 0; i < bubbleCount; ++i) {
+		// Calculate the direction vector from the bubble to the mouse
+		ImVec2 toMouse = ImVec2(mousePos.x - bubbles[i].position.x, mousePos.y - bubbles[i].position.y);
+		float distanceToMouse = sqrt(toMouse.x * toMouse.x + toMouse.y * toMouse.y);
+
+		if (bubbles[i].velocity.x == 0 || bubbles[i].velocity.y == 0) {
+			bubbles[i].velocity = ImVec2((rand() % 13 - 8),
+				(rand() % 13 - 8));
+		}
+
+		// Update bubble position based on velocity
+		bubbles[i].position.x += bubbles[i].velocity.x * speedMultiplier;
+		bubbles[i].position.y += bubbles[i].velocity.y * speedMultiplier;
+
+		// Check boundaries and bounce back if needed
+		if (bubbles[i].position.x < 0 || bubbles[i].position.x > CURRENTWIDTH) {
+			bubbles[i].velocity.x = -bubbles[i].velocity.x;
+		}
+		else if (bubbles[i].position.y < 0 || bubbles[i].position.y > CURRENTHEIGHT) {
+			bubbles[i].velocity.y = -bubbles[i].velocity.y;
+		}
+		else 
+		{
+			// Check if the mouse is within a certain range of the bubble
+			if (distanceToMouse < interactiveRadius) {
+				// Move the bubble away from the mouse
+				bubbles[i].position.x -= toMouse.x / distanceToMouse * interactiveSpeedMultiplier;
+				bubbles[i].position.y -= toMouse.y / distanceToMouse * interactiveSpeedMultiplier;
+			}
+		}
+
+		ImGui::GetWindowDrawList()->AddCircleFilled(bubbles[i].position, bubbles[i].radius,
+			IM_COL32(
+				int(bubbles[i].color.x * 255),
+				int(bubbles[i].color.y * 255),
+				int(bubbles[i].color.z * 255),
+				int(bubbles[i].color.w * 255)
+			));
+	}
+}
+
 void Gui::RenderBubbles() {
 	for (int i = 0; i < bubbleCount; ++i) {
 
@@ -242,6 +376,7 @@ void Gui::CreateImGui() noexcept
 	regularFont = io.Fonts->AddFontFromMemoryCompressedTTF(Font::FontData_compressed_data, Font::FontData_compressed_size, 16.f, &config);
 	titleFont = io.Fonts->AddFontFromMemoryCompressedTTF(Font::FontData_compressed_data, Font::FontData_compressed_size, 26.f, &config);
 
+	// Load images
 	LoaderIcon = LoadImageToTexture(Font::LoaderIcon, sizeof(Font::LoaderIcon), true);
 	CS2Image = LoadImageToTexture(Font::CS2ImageData, sizeof(Font::CS2ImageData), true);
 
@@ -254,13 +389,11 @@ void Gui::CreateImGui() noexcept
 	device->SetRenderState(D3DRS_DESTBLEND, D3DBLEND_INVSRCALPHA);
 	device->SetSamplerState(0, D3DSAMP_SRGBTEXTURE, TRUE);
 
-	LPDIRECT3DVERTEXSHADER9 pVertexShader = nullptr;
-	device->CreateVertexShader(reinterpret_cast<const DWORD*>(vsCode), &pVertexShader);
-
-	LPDIRECT3DPIXELSHADER9 pPixelShader = nullptr;
-	device->CreatePixelShader(reinterpret_cast<const DWORD*>(psCode), &pPixelShader);
-
 	// Set shaders
+	LPDIRECT3DVERTEXSHADER9 pVertexShader = nullptr;
+	LPDIRECT3DPIXELSHADER9 pPixelShader = nullptr;
+	device->CreateVertexShader(reinterpret_cast<const DWORD*>(vsCode), &pVertexShader);
+	device->CreatePixelShader(reinterpret_cast<const DWORD*>(psCode), &pPixelShader);
 	device->SetVertexShader(pVertexShader);
 	device->SetPixelShader(pPixelShader);
 
@@ -393,9 +526,7 @@ void Gui::DrawRainbowBar(float width, float height) noexcept
 	ImGui::PushStyleColor(ImGuiCol_ButtonHovered, interpolatedColor);
 	ImGui::PushStyleColor(ImGuiCol_ButtonActive, interpolatedColor);
 	ImGui::Button(" ", barSize);
-	ImGui::PopStyleColor();
-	ImGui::PopStyleColor();
-	ImGui::PopStyleColor();
+	ImGui::PopStyleColor(3);
 }
 
 void Gui::BeginImGuiRender() noexcept
@@ -412,4 +543,24 @@ void Gui::BeginImGuiRender() noexcept
 void Gui::EndImGuiRender() noexcept
 {
 	ImGui::End();
+}
+
+// Goes way too fast & rotationSpeed does nothing
+void Gui::RotatePoint(ImVec2& point, const ImVec2& center, float angle, float rotationSpeed) {
+	float s = sin(angle * rotationSpeed);
+	float c = cos(angle * rotationSpeed);
+
+	// Translate the point to the origin
+	point.x -= center.x;
+	point.y -= center.y;
+
+	// Rotate the point
+	float xNew = point.x * c - point.y * s;
+	float yNew = point.x * s + point.y * c;
+
+	// maybe try yNew & xNew * rotationSpeed ?
+
+	// Translate the point back to its original position
+	point.x = xNew + center.x;
+	point.y = yNew + center.y;
 }

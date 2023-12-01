@@ -17,13 +17,39 @@ namespace Gui
         ImVec4 color;
     };
 
+    struct Triangle {
+        ImVec2 vertex1, vertex2, vertex3;
+        ImVec2 velocity;
+        ImVec2 centroid;
+        ImU32 color;
+        float rotationAngle;
+        float scale;
+    };
+
     inline Bubble bubbles[50];
     inline int bubbleCount = 50;
     inline float speedMultiplier = 0.3f;
+    inline float interactiveSpeedMultiplier = 3.0f;
+    inline float interactiveRadius = 40.0f;
     inline ImVec4 bubbleColor = ImVec4(.22f, .22f, .22f, .5f);
 
+    inline Triangle triangles[50];
+    inline int triangleCount = 50;
+    inline float triangleScaleFactor = 0.5f;
+    inline float triangleRotationSpeed = 1.0f;
+
+    // Bubbles work nicely but sometimes can go off screen, especially with interactive version
     void InitializeBubbles();
     void RenderBubbles();
+    void RenderInteractiveBubbles();
+
+    void InitializeTriangles();
+    void RenderTriangles();
+
+    // Doesn't work
+    // Rotation is way too fast & isn't adjustable
+    void RenderInteractiveTriangles();
+    void RotatePoint(ImVec2& point, const ImVec2& center, float angle, float rotationSpeed);
 
     // Constant window size
     inline int WIDTH = 400;

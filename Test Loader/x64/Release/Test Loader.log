@@ -1,6 +1,15 @@
-﻿  Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 1648 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+﻿  MainApp.cpp
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(75,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(107,20): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(113,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(113,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(169,20): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(175,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ghost\Desktop\C++\Test Loader\Test Loader\MainApp\MainApp.cpp(175,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  78 of 1650 functions ( 4.7%) were compiled, the rest were copied from previous compilation.
+    23 functions were new in current compilation
+    21 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Test Loader.vcxproj -> C:\Users\ghost\Desktop\C++\Test Loader\x64\Release\Test Loader.exe
   'pwsh.exe' is not recognized as an internal or external command,
