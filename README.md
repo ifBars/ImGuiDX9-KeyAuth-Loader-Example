@@ -3,4 +3,4 @@
 
 **Video Showcase**
 
-![Video](https://imgur.com/UvMwPJv)
+![Video](https://imgur.com/UvMwPJv.gif)
