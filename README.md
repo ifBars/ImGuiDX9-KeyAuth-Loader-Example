@@ -3,4 +3,4 @@
 
 **Video Showcase**
 
-![Video Showcase](https://github.com/ifBars/ImGuiDX9-KeyAuth-Loader-Example/assets/114284668/58b8f539-3a2a-48c8-8025-0b861578504f)
+![Video Showcase](https://github.com/ifBars/ImGuiDX9-KeyAuth-Loader-Example/assets/114284668/58b8f539-3a2a-48c8-8025-0b861578504f.gif)
